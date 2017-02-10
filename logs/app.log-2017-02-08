@@ -1,0 +1,3 @@
+[08 02 2017 04:59:45.981] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[08 02 2017 10:44:10.551] [DEBUG] - Mongoose is now disconnected..!
+[08 02 2017 10:44:24.970] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla

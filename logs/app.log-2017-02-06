@@ -1,0 +1,37 @@
+[06 02 2017 09:33:44.851] [DEBUG] - Received request{}
+[06 02 2017 09:34:25.198] [DEBUG] - Received request{"name":"raji","password":"88070"}
+[06 02 2017 09:35:17.886] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 09:35:18.353] [DEBUG] - Received request{"name":"raji","password":"88070"}
+[06 02 2017 09:35:19.794] [DEBUG] - Received request{"name":"raji","password":"88070"}
+[06 02 2017 09:59:02.924] [DEBUG] - Mongoose is now disconnected..!
+[06 02 2017 10:09:02.331] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:19:05.570] [DEBUG] - Received request{"userName":"raji","password":"88070"}
+[06 02 2017 10:28:33.775] [DEBUG] - Inside user post
+[06 02 2017 10:30:36.051] [DEBUG] - Inside user post
+[06 02 2017 10:30:52.625] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:30:57.712] [DEBUG] - Inside user post
+[06 02 2017 10:37:21.147] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:37:30.173] [DEBUG] - Inside user post
+[06 02 2017 10:37:46.309] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:38:15.448] [DEBUG] - Inside user post
+[06 02 2017 10:39:53.673] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:39:58.687] [DEBUG] - Inside user post
+[06 02 2017 10:43:11.075] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:43:18.801] [DEBUG] - Inside user post
+[06 02 2017 10:44:47.587] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:47:50.620] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 10:53:09.934] [DEBUG] - Inside user post
+[06 02 2017 10:53:15.182] [DEBUG] - Inside user post
+[06 02 2017 10:56:56.582] [DEBUG] - Inside user post
+[06 02 2017 10:57:42.031] [DEBUG] - Inside user post
+[06 02 2017 10:59:07.446] [DEBUG] - Inside user post
+[06 02 2017 10:59:17.994] [DEBUG] - Inside user post
+[06 02 2017 10:59:31.671] [DEBUG] - Inside user post
+[06 02 2017 11:02:54.411] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 11:06:31.821] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 11:06:50.023] [DEBUG] - Inside user post
+[06 02 2017 11:07:11.148] [DEBUG] - Inside user post
+[06 02 2017 11:08:25.834] [DEBUG] - Received request{"Name":"\"dgdgf\""}
+[06 02 2017 11:09:00.984] [DEBUG] - Received request{"userName":"\"dgdgf\"","password":"88070"}
+[06 02 2017 11:10:20.680] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[06 02 2017 12:05:03.017] [DEBUG] - Mongoose is now disconnected..!
