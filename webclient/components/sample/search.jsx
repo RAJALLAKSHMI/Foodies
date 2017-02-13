@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import Child from './components/sample';
-import fav from './favourites.jsx';
+ import Fav from './favourites.jsx';
+import {Button} from 'semantic-ui-react'
 
 class search extends React.Component {
     constructor() {
@@ -35,8 +36,8 @@ class search extends React.Component {
                 </form>
                 <button type="button" onClick={this.Clickfn
                   .bind(this, this.state.id, this.state.cuisine)}>search</button><br/><br/><br/>
-                <button type="button">view list</button>
-                {/* <fav/> */}
+                 {/* <Button floated='right' onClick={this.view}>view favourites</Button> */}
+                {/* <Fav/> */}
             </div>
         )
 

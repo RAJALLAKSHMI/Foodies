@@ -5,6 +5,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const config = require('../config/');
 const logger = require('../applogger');
+const passport = require('../Authendicate/passport');
+const connectflash = require('connect-flash');
 
 function createApp() {
   const app = express();
@@ -50,6 +52,10 @@ function setupMiddlewares(app) {
   app.use(bodyParser.urlencoded({
     extended: false
   }));
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(connectflash());
+  app.use(require('express-session')({secret:'accesskey'}));
 
   const compression = require('compression');
   app.use(compression());

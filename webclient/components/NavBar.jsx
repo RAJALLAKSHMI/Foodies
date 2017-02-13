@@ -1,18 +1,15 @@
-var React = require('react');
-var {Link} = require('react-router');
-var NavBar = React.createClass({
+let React = require('react');
+let {Link} = require('react-router');
+let NavBar = React.createClass({
 
-render:function(){
+render: function() {
   return(
-    <div className="container-fluid">
-    <ul className="nav navbar-nav">
-    <li><Link to="/home">Home</Link></li>
-    <li><Link to="/gmailbox">Gmail</Link></li>
-    <li><Link to="/about">About Us</Link></li>
-    </ul>
+    <div>
+      <li><Link to="/home">Home</Link></li>
+      <li><Link to="/favs">Favs</Link></li>
     </div>
   );
 }
 });
 
-module.exports=NavBar;
+module.exports = NavBar;

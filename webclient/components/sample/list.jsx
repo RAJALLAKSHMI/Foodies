@@ -33,8 +33,10 @@ let ListItem = React.createClass({
                         <Icon className='smile'/>{this.props.rating}
                     </a>
                 </Card.Content>
+
                 <Button color="green"onClick={this.onSave}>
                   <Icon className='add'/>Add Restaurant</Button>
+
             </Card>
 
         );

@@ -2,6 +2,9 @@
 const logger = require('./../../applogger');
 const router = require('express').Router();
 const userModel = require('./userEntity').userModel;
+const passport = require('passport');
+const Strategy = require('passport-local').Strategy;
+
 /* for inserting values */
 router.post('/add', function(req, res){
 	logger.debug("Received request"+JSON.stringify(req.body));
@@ -51,11 +54,41 @@ router.delete('/delete', function(req, res) {
    }
 });
 
-
+router.put('/update', function(req, res) {
+   console.log('inside user put');
+});
 // Get details of all users in the system
-router.get('/', function(req, res) {
+// router.get('/', function(req, res) {
 
-  res.send('response from user GET route check');
+  // res.send('response from user GET route check');
+// router.get('/find', function(req, res) {
+//      console.log('Inside get');
+//      if(req.body)
+//      {
+//      Resmodel.find(function(err, user) {
+//          if (err) {
+//              res.send(err);
+//          } else {
+//              //  console.log(user);
+//              res.send(user);
+//          }
+//        });
+//      }
+//      });
+// });
+router.post('/login',
+ passport.authenticate('local', {
+ failureFlash: 'Invalid Username and Password',
+ successFlash: "Welcome to Movie App"}
+),
+function(req, res) {
+   res.json({responseText:'authenticated'});
+}
+);
+
+router.get('/logout', function(req, res){
+console.log('Session deleted');
+req.session.destroy();
 });
 
 module.exports = router;

@@ -2,7 +2,7 @@
 const logger = require('./../../applogger');
 const router = require('express').Router();
 //const userCtrl = require('./userController');
-const Resmodel = require('./restaurantentity').resModel;
+const Resmodel = require('./restaurantentity');
 const bodyparser = require('body-parser');
 // var app = express();
 router.use(bodyparser.json());
@@ -44,14 +44,9 @@ router.get('/find', function(req, res) {
 
 /* delete the required value */
 router.delete('/delete', function(req, res) {
-   console.log('Inside delete');
-   let name = new Resmodel(req.body);
-   if (Object.keys(req.body).length === 0) {
-       res.send('response from user delete route check');
-   } else {
-       Resmodel.remove({
-           Name: req.body.Name
-       }, function(err) {
+   console.log('inside delete');
+
+       Resmodel.remove({id: req.body.id}, function(err) {
            if (err) {
                res.send(err);
            } else {
@@ -59,7 +54,27 @@ router.delete('/delete', function(req, res) {
            }
        })
        //res.send('deleted');
-   }
+   });
+// });
+router.put('/update', function(req, res) {
+    logger.debug("inside restaurant update PUT");
+    Resmodel.findOneAndUpdate({
+        id: req.body.id
+
+    }, {
+        $set: {
+            comment: req.body.comment
+            // 'address.0.city': req.body.city,
+            // 'address.0.state': req.body.state
+        }
+    }, function(err, users) {
+        if (err) {
+            res.send('restaurant updation failed' + err);
+        } else {
+            console.log("rtrtrrtru"+req.body.comment , '  ',req.body.id);
+            res.send('restaurant updated successfully!');
+        }
+    });
 });
 
 // Get details of all user in the system

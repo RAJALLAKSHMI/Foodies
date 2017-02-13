@@ -20,10 +20,11 @@ const schema = new mongoose.Schema({
 		rating: {
 			type: String,
 			required: true
-		}
+		},
+    comment: {
+      type: String
+    }
 
 });
 const model = mongoose.model('res', schema);
-module.exports = {
-	resModel: model
-};
+module.exports = model;
