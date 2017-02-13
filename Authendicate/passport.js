@@ -1,6 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const users = require('../server/users/userEntity');
+const users = require('../server/users/userEntity').userModel;
 const connectFlash = require('connect-flash');
 passport.use(new LocalStrategy(function(username, password, cb) {
 users.findOne({"username": username}, function(err, user)

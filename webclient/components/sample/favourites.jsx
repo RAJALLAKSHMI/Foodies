@@ -57,9 +57,21 @@ export class Favs extends React.Component {
         });
     }
 
+    del(id) {
+      let data=this.state.favsData;
+      let arr=[];
+      for(var ob of data) {
+        if(ob._id !== id) {
+          arr.push(ob);
+        }
+      }
+      this.setState({favsData:arr});
+    }
+
     render() {
       let click = this.click.bind(this);
       let u=this.handlechange.bind(this);
+      let delete1=this.del.bind(this);
       let favCards = this.state.favsData.map(function(card){
         return (
           <Card>
@@ -79,7 +91,7 @@ export class Favs extends React.Component {
                       <Card.Content extra>
                       {/* <Button color="grey" floated="left" onClick={u}>
                           <Icon className='add'/>Update</Button> */}
-                         <Delete id={card.id}/>
+                         <Delete id={card.id} delete={delete1}/>
                           <Update id={card.id} comment={card.comment} click={click}/>
                   </Card.Content>
               </Card.Content>

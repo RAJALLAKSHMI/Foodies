@@ -4,6 +4,7 @@ const router = require('express').Router();
 const userModel = require('./userEntity').userModel;
 const passport = require('passport');
 const Strategy = require('passport-local').Strategy;
+const connectFlash = require('connect-flash');
 
 /* for inserting values */
 router.post('/add', function(req, res){
@@ -37,12 +38,12 @@ router.get('/find', function(req, res) {
 /* to delete the values */
 router.delete('/delete', function(req, res) {
    console.log('Inside delete');
-   let name = req.body.userName;
+   let name = req.body.username;
    if (Object.keys(req.body).length === 0) {
        res.send('response from user delete route check');
    } else {
        userModel.remove({
-           userName: name
+           username: name
        }, function(err) {
            if (err) {
                res.send(err);
@@ -58,24 +59,11 @@ router.put('/update', function(req, res) {
    console.log('inside user put');
 });
 // Get details of all users in the system
-// router.get('/', function(req, res) {
+router.get('/', function(req, res) {
 
-  // res.send('response from user GET route check');
-// router.get('/find', function(req, res) {
-//      console.log('Inside get');
-//      if(req.body)
-//      {
-//      Resmodel.find(function(err, user) {
-//          if (err) {
-//              res.send(err);
-//          } else {
-//              //  console.log(user);
-//              res.send(user);
-//          }
-//        });
-//      }
-//      });
-// });
+  res.send('response from user GET route check');
+
+});
 router.post('/login',
  passport.authenticate('local', {
  failureFlash: 'Invalid Username and Password',

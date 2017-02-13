@@ -14,6 +14,7 @@ class Delete extends React.Component {
 
    /* ajax call for Delete react componenet */
    click() {
+     var id=this.props.id;
        $.ajax({
            url: 'http://localhost:8080/restaurant/delete',
            type: 'DELETE',
@@ -22,6 +23,7 @@ class Delete extends React.Component {
            },
            success: function(data) {
                console.log('deleted');
+               this.delete(id);
            }.bind(this),
            error: function(err) {
                console.error(err.toString());
@@ -29,6 +31,10 @@ class Delete extends React.Component {
        });
    }
 
+
+   delete(id) {
+     this.props.delete(id);
+   }
 
    /* Render function */
    render() {
