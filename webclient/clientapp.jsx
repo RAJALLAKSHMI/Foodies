@@ -19,8 +19,8 @@ var MainComp = React.createClass({
 })
 ReactDOM.render(
   <Router history={browserHistory}>
-    <Route path="/" component={MainComp}>
-    <IndexRoute component={login}/>
+    <Route path="/" component={login}/>
+    <Route component={MainComp}>
         <Route path="/home" component={Home}/>
         <Route path="/favs" component={Favs}/>
     </Route>

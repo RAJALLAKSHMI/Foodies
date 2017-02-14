@@ -24,15 +24,15 @@ class Update extends React.Component {
    render() {
        return (
            <div>
-               {/* <Button color = 'grey' floated = 'right' onClick = {this.click.bind(this)}
-                  value = {this.state.value}><Icon name = 'heart'/>update</Button> */}
-                  <Button.Group>
+               <Button color = 'green' floated = 'right' onClick = {this.click.bind(this)}
+                  value = {this.state.value}><Icon name = 'heart'/>update</Button>
+                  {/* <Button.Group>
                          {/* <Button onClick = {this.click.bind(this)}
                            value = {this.state.value}><Icon name = 'delete'/>Delete</Button> */}
                          {/* <Button.Or /> */}
-                       <Button floated = 'right' positive onClick = {this.click.bind(this)}
-                         value = {this.state.value} floated = 'right'><Icon name = 'heart'/>Update</Button>
-                     </Button.Group>
+                       {/* <Button floated = 'right' positive onClick = {this.click.bind(this)}
+                         value = {this.state.value}><Icon name = 'heart' floated = 'right'/>Update</Button> */}
+                     {/* </Button.Group> */}
            </div>
        );
    }

@@ -77,6 +77,7 @@ function(req, res) {
 router.get('/logout', function(req, res){
 console.log('Session deleted');
 req.session.destroy();
+res.send({redirect: '/'});
 });
 
 module.exports = router;

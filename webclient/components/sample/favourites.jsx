@@ -60,9 +60,9 @@ export class Favs extends React.Component {
     del(id) {
       let data=this.state.favsData;
       let arr=[];
-      for(var ob of data) {
-        if(ob._id !== id) {
-          arr.push(ob);
+      for(var obj of data) {
+        if(obj._id != id) {
+          arr.push(obj);
         }
       }
       this.setState({favsData:arr});
@@ -82,13 +82,15 @@ export class Favs extends React.Component {
                   <Card.Description>{card.address}  --</Card.Description>
               </Card.Content>
 
-              <Input type="text" name="comment" onChange={u}/>
+              {/* <Input type="text" name="comment" onChange={u}/> */}
               <Card.Content extra>
                   <a>
-                      <Icon className='smile'/>{card.rating} {card.comment}
+                      <Icon className='star' color="yellow"/>{card.rating} {card.comment}<br/><br/><br/>
 
                     </a>
                       <Card.Content extra>
+                          Update Comments:<Input type="textarea" color="blue"
+                            name="comment" onChange={u}/><br/><br/><br/>
                       {/* <Button color="grey" floated="left" onClick={u}>
                           <Icon className='add'/>Update</Button> */}
                          <Delete id={card.id} delete={delete1}/>

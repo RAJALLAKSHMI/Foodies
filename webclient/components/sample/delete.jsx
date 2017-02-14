@@ -23,7 +23,7 @@ class Delete extends React.Component {
            },
            success: function(data) {
                console.log('deleted');
-               this.delete(id);
+               this.props.delete(id);
            }.bind(this),
            error: function(err) {
                console.error(err.toString());
@@ -40,15 +40,17 @@ class Delete extends React.Component {
    render() {
        return (
            <div>
-               {/* <Button color = 'red' floated = 'left' onClick = {this.click.bind(this)}
-                  value = {this.state.value}><Icon name = 'delete'/>delete</Button> */}
-                  <Button.Group>
+               <Button color = 'red' floated = 'left' onClick = {this.click.bind(this)}
+                  value = {this.state.value}><Icon name = 'delete'/>delete</Button>
+
+                  {/* <Button.Group>
                          <Button onClick = {this.click.bind(this)}
                            value = {this.state.value}><Icon name = 'delete'/>Delete</Button>
                          <Button.Or />
                        {/* <Button positive>Update</Button> */}
-                     </Button.Group>
+                     {/* </Button.Group> */}
            </div>
+
        );
    }
 }

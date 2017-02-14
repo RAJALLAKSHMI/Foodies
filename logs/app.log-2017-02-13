@@ -1,0 +1,163 @@
+[13 02 2017 04:20:49.385] [DEBUG] - Inside user post
+[13 02 2017 04:35:51.980] [DEBUG] - Inside user post
+[13 02 2017 05:11:39.882] [DEBUG] - Inside user post
+[13 02 2017 05:11:45.290] [DEBUG] - Inside user post
+[13 02 2017 05:11:46.355] [DEBUG] - Inside user post
+[13 02 2017 05:11:49.124] [DEBUG] - Inside user post
+[13 02 2017 05:13:56.681] [DEBUG] - Inside user post
+[13 02 2017 05:13:58.811] [DEBUG] - Inside user post
+[13 02 2017 05:14:00.289] [DEBUG] - Inside user post
+[13 02 2017 05:14:01.079] [DEBUG] - Inside user post
+[13 02 2017 05:16:01.288] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:17:24.433] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 05:20:17.751] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:20:27.364] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 05:21:04.306] [DEBUG] - Inside user post
+[13 02 2017 05:21:06.676] [DEBUG] - Inside user post
+[13 02 2017 05:21:09.632] [DEBUG] - Inside user post
+[13 02 2017 05:23:23.139] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 05:25:07.570] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 05:29:46.095] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:29:55.527] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 05:48:13.706] [DEBUG] - Inside user post
+[13 02 2017 05:48:16.361] [DEBUG] - Inside user post
+[13 02 2017 05:48:20.180] [DEBUG] - Inside user post
+[13 02 2017 05:49:56.419] [DEBUG] - Inside user post
+[13 02 2017 05:53:07.098] [DEBUG] - Inside user post
+[13 02 2017 05:57:20.428] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 05:58:41.597] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 06:00:47.839] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 06:22:24.311] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 06:22:36.238] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 06:24:08.109] [DEBUG] - inside restaurant update PUT
+[13 02 2017 06:27:21.280] [DEBUG] - Inside user post
+[13 02 2017 06:27:24.138] [DEBUG] - Inside user post
+[13 02 2017 06:41:54.899] [DEBUG] - Inside user post
+[13 02 2017 06:41:55.873] [DEBUG] - Inside user post
+[13 02 2017 06:41:57.233] [DEBUG] - Inside user post
+[13 02 2017 06:41:58.702] [DEBUG] - Inside user post
+[13 02 2017 06:55:15.185] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:52:07.727] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:52:16.906] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:52:42.334] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 07:52:52.292] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 07:53:53.568] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:53:58.972] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:55:44.162] [DEBUG] - inside restaurant update PUT
+[13 02 2017 07:59:12.840] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:00:01.721] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:00:10.438] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:00:14.505] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:00:46.985] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:00:49.668] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:03.145] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:04.971] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:05.023] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:05.326] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:05.349] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:05.695] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:05.716] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:06.059] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:02:20.898] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:51:49.906] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:51:55.899] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:52:36.251] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:53:30.269] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 08:53:42.332] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 08:54:16.040] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:54:22.986] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:54:45.024] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:57:29.056] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:58:24.390] [DEBUG] - inside restaurant update PUT
+[13 02 2017 08:58:50.376] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:01:19.624] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 09:01:31.161] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 09:01:39.331] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:01:39.378] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:02:15.963] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:02:31.873] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:04:02.425] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:05:24.239] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:06:11.112] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:08:47.028] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:09:27.928] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:10:22.236] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:10:23.799] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:11:15.370] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 09:11:25.631] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 09:11:59.497] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:12:29.548] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:17:31.370] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 09:30:27.201] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 09:43:59.045] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 09:44:10.095] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 09:44:47.478] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:44:50.035] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:45:21.336] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:45:55.703] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:46:33.037] [DEBUG] - inside restaurant update PUT
+[13 02 2017 09:46:44.551] [DEBUG] - inside restaurant update PUT
+[13 02 2017 10:29:36.474] [DEBUG] - Inside user post
+[13 02 2017 10:29:40.300] [DEBUG] - Inside user post
+[13 02 2017 10:29:42.938] [DEBUG] - Inside user post
+[13 02 2017 10:30:33.633] [DEBUG] - inside restaurant update PUT
+[13 02 2017 10:40:51.231] [DEBUG] - inside restaurant update PUT
+[13 02 2017 10:41:12.205] [DEBUG] - inside restaurant update PUT
+[13 02 2017 10:44:06.374] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:40:16.879] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:44:06.760] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:44:16.989] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:46:10.711] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:46:48.221] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:47:06.893] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:48:33.527] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:48:43.022] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:48:48.227] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:48:55.587] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:48:58.347] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:51:42.515] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:51:49.007] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:53:40.667] [DEBUG] - Inside user post
+[13 02 2017 11:53:42.969] [DEBUG] - Inside user post
+[13 02 2017 11:53:48.172] [DEBUG] - Inside user post
+[13 02 2017 11:55:12.730] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:55:58.890] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:57:18.563] [DEBUG] - inside restaurant update PUT
+[13 02 2017 11:59:52.896] [DEBUG] - inside restaurant update PUT
+[13 02 2017 12:02:17.220] [DEBUG] - inside restaurant update PUT
+[13 02 2017 12:05:32.864] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 12:41:07.505] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 12:49:29.440] [DEBUG] - Received request{"{\n\"username\" : \"raji\"\n\"password\" : \"raji123\"\n}":""}
+[13 02 2017 12:50:23.956] [DEBUG] - Received request{"{\n\"username\" : \"raji\"\n\"password\" : \"raji123\"\n}":""}
+[13 02 2017 12:51:09.915] [DEBUG] - Received request{"{\n\"userName\" : \"raji\"\n\"password\" : \"raji123\"\n}":""}
+[13 02 2017 12:52:37.824] [DEBUG] - Received request{"userName":"raji","password":"raji123"}
+[13 02 2017 12:56:19.708] [DEBUG] - inside restaurant update PUT
+[13 02 2017 12:56:42.191] [DEBUG] - inside restaurant update PUT
+[13 02 2017 12:56:51.938] [DEBUG] - inside restaurant update PUT
+[13 02 2017 12:58:55.267] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 13:12:55.457] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 13:12:58.935] [DEBUG] - Received request{"userName":"aashi","password":"aashi123"}
+[13 02 2017 13:14:27.540] [DEBUG] - inside restaurant update PUT
+[13 02 2017 13:15:43.186] [DEBUG] - inside restaurant update PUT
+[13 02 2017 13:16:31.325] [DEBUG] - inside restaurant update PUT
+[13 02 2017 13:39:58.490] [DEBUG] - Received request{"username":"keerthi","password":"keerthi123"}
+[13 02 2017 14:01:15.260] [DEBUG] - Received request{"username":"find","password":"find123"}
+[13 02 2017 14:03:06.945] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 14:03:18.339] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 14:03:54.491] [DEBUG] - Received request{"username":"priya","password":"priya"}
+[13 02 2017 17:08:30.778] [DEBUG] - Mongoose is now disconnected..!
+[13 02 2017 17:21:17.791] [DEBUG] - Mongoose is now connected to  mongodb://127.0.0.1:27017/zynla
+[13 02 2017 17:29:01.072] [DEBUG] - Inside user post
+[13 02 2017 17:29:02.538] [DEBUG] - Inside user post
+[13 02 2017 17:29:05.900] [DEBUG] - Inside user post
+[13 02 2017 17:31:49.394] [DEBUG] - inside restaurant update PUT
+[13 02 2017 17:47:59.156] [DEBUG] - inside restaurant update PUT
+[13 02 2017 17:59:23.562] [DEBUG] - Inside user post
+[13 02 2017 17:59:25.267] [DEBUG] - Inside user post
+[13 02 2017 17:59:28.510] [DEBUG] - Inside user post
+[13 02 2017 18:04:05.374] [DEBUG] - inside restaurant update PUT
+[13 02 2017 18:04:13.089] [DEBUG] - inside restaurant update PUT
+[13 02 2017 18:04:39.705] [DEBUG] - inside restaurant update PUT
+[13 02 2017 18:05:20.247] [DEBUG] - Inside user post
+[13 02 2017 18:05:25.359] [DEBUG] - Inside user post
+[13 02 2017 18:05:27.287] [DEBUG] - Inside user post
